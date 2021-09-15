@@ -1,5 +1,3 @@
-﻿#Invoke-WebRequest -Uri "https://api.github.com/users/joymon" -OutFile g:\logs\test.json
-
 ################ Azure login params ###################
 $ServicePrincipalCertificateThumbprint = ''
 $TenantId = '' #This is AAD Tenant Id where the below app registration is created, not Subscription Id
